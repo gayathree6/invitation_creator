@@ -35,6 +35,18 @@
       "music": "Calm",
       "qr": true,
       "id": "Ok_sx4gfeuE"
+    },
+    {
+      "eventType": "Birthday",
+      "title": "asfr",
+      "date": "2026-09-13",
+      "time": "4:30 PM",
+      "venue": "hjy",
+      "address": "rju",
+      "theme": "Elegant",
+      "music": "Celebration",
+      "qr": true,
+      "id": "g1Sh-EY3lwI"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
