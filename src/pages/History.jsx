@@ -17,9 +17,9 @@ function History() {
 
     try {
 
-      const response = await fetch(
-        'http://localhost:3000/invitations'
-      )
+     const response = await fetch(
+  'https://invita-server.onrender.com/invitations'
+)
 
       const data = await response.json()
 
@@ -61,11 +61,11 @@ function History() {
     try {
 
       await fetch(
-        `http://localhost:3000/invitations/${id}`,
-        {
-          method: 'DELETE'
-        }
-      )
+  `https://invita-server.onrender.com/invitations/${id}`,
+  {
+    method: 'DELETE'
+  }
+)
 
       // Remove deleted invitation from screen
       setInvitations(
