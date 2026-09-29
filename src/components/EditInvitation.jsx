@@ -30,8 +30,8 @@ function Edit() {
       try {
 
         const response = await fetch(
-          `http://localhost:3000/invitations/${id}`
-        )
+  `https://invita-server.onrender.com/invitations/${id}`
+)
 
         if (!response.ok) {
           throw new Error('Invitation not found')
@@ -91,9 +91,9 @@ function Edit() {
     try {
 
       const response = await fetch(
-        `http://localhost:3000/invitations/${id}`,
-        {
-          method: 'PUT',
+  `https://invita-server.onrender.com/invitations/${id}`,
+  {
+    method: 'PUT',
 
           headers: {
             'Content-Type': 'application/json'
