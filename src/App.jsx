@@ -34,10 +34,7 @@ function App() {
             element={<InvitationForm />}
           />
   
-          <Route
-            path="/history"
-            element={<History />}
-          />
+         
   
           <Route
             path="/invitation/:id/view"

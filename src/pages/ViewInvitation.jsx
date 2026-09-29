@@ -16,7 +16,7 @@ function ViewInvitation() {
 
   useEffect(() => {
 
-    fetch(`http://localhost:3000/invitations/${id}`)
+    fetch(`https://invita-server.onrender.com/invitations/${id}`)
       .then(response => {
 
         if (!response.ok) {

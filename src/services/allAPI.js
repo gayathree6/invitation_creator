@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const API_URL = 'http://localhost:3000/invitations'
+const API_URL = 'https://invita-server.onrender.com/invitations'
 
 // ADD invitation
 export const addInvitationAPI = async (invitationData) => {

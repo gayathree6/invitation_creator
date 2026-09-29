@@ -276,7 +276,7 @@ const handleShare = async () => {
     </p>
 
   <QRCodeCanvas
-  value={`https://your-invita-app.vercel.app/invitation/${invitationData.id}/view`}
+  value={`https://invitation-creator-xi.vercel.app/invitation/${invitationData.id}/view`}
   size={150}
 />
 
